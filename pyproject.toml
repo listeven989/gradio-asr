@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gradio-asr"
+version = "0.1.0"
+description = ""
+authors = ["steven4354 <steven4354@gmail.com>"]
+readme = "README.md"
+packages = [{include = "gradio_asr"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+gradio = "^4.1.1"
+transformers = "^4.35.0"
+torch = "^2.1.0"
+numpy = "^1.26.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
