@@ -10,9 +10,16 @@ packages = [{include = "gradio_asr"}]
 python = ">=3.9,<3.13"
 gradio = "^4.1.1"
 transformers = "^4.35.0"
-torch = "^2.1.0"
 numpy = "^1.26.1"
 librosa = "^0.10.1"
+flask = "^3.0.0"
+flask-socketio = "^5.3.6"
+scipy = "^1.11.3"
+gtts = "^2.4.0"
+pydub = "^0.25.1"
+torch = "^2.1.0"
+socketio-client = "^0.7.2"
+python-socketio = "^5.10.0"
 torchaudio = "^2.1.0"
 
 
